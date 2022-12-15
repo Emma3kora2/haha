@@ -1,6 +1,6 @@
 function setup() {
     canvas =createCanvas(280,280)
-    canvas.center();
+   canvas.position(550,200);
     background("white");
     canvas.mouseReleased(classifyCanvas);
     synth=window.speechSynthesis;
